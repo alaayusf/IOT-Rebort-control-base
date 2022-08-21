@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<style>
+body {
+background-color:#ffe6e6;
+text-align: center; 
+}
+</style>
+
+
+
+
+
+
+<div class="slidecontainer">
+<p>محرك1 </p>
+<p>Value1: <span id="demo1"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider1" id="myRange1">
+
+
+
+
+
+<p>محرك2 </p>
+ <p>Value2: <span id="demo2"></span> </p>
+
+
+  <input type="range" min="1" max="100" value="50" class="slider2" id="myRange2">
+  
+
+<p>محرك3 </p>
+ <p>Value3: <span id="demo3"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider3" id="myRange3">
+ 
+  
+<p>محرك4 </p>
+<p>Value4: <span id="demo4"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider4" id="myRange4">
+  
+  
+ <p>محرك5 </p>
+ <p>Value5: <span id="demo5"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider5" id="myRange5">
+  
+</div>
+<script>
+    
+    slider1 = document.getElementById("myRange1");
+        output = document.getElementById("demo1");
+        output.innerHTML = slider.value;
+       
+        slider.oninput = function() {
+            output.innerHTML =this.Value;
+        }
+        
+    </script>
+<script>
+    
+   var slider1 = document.getElementById("myRange1");
+    var output1 = document.getElementById("demo1");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider1.oninput = function(){
+        output1.innerHTML =this.value;
+        
+    } 
+    
+    
+    
+   
+    </script>
+<script>
+    
+   var slider2 = document.getElementById("myRange2");
+    var output2 = document.getElementById("demo2");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider2.oninput = function(){
+        output2.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	
+<script>
+    
+   var slider3 = document.getElementById("myRange3");
+    var output3 = document.getElementById("demo3");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider3.oninput = function(){
+        output3.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	<script>
+    
+   var slider4 = document.getElementById("myRange4");
+    var output4 = document.getElementById("demo4");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider4.oninput = function(){
+        output4.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	<script>
+    
+   var slider5 = document.getElementById("myRange5");
+    var output5 = document.getElementById("demo5");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider5.oninput = function(){
+        output5.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	
+	
+	
+	
+	
+	
+
+<input type="submit" value="تحفظ">
+    
+  <input type="submit" value="تشغيل">
+
+
+    
+    
+    
+    
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h1>Report control base  </h1>
+
+
+
+<html lang="en" dir="ltr">
+   <head>
+   <meta charset="utf-8">
+   <title>base for robot</title>
+   <link rel="stylesheet" href="style2.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+   <div class="center">
+   
+ <span></span>
+   
+   <table style="width:40%">
+    <tr>
+      <th>  </th>
+      <th>  </th> 
+      <th>  </th>
+    </tr>
+         <tr><td></td>
+      <td>  <div class="center">
+        <div class="outer button">
+        <button>Foward</button>
+        <span></span>
+        <span></span>
+        </div>        </td>
+        <td>   </td>
+          </tr> </div>
+  
+          <br>
+  
+        <tr>
+      <td></td>  <div class="outer button">
+        <button>Left</button>
+        <span></span>
+        <span></span>
+        </div>
+       </div>
+      <br>
+      <br> <br> <br> <br> <br>
+
+      
+      </td>
+         <td> 
+          <br><br><br><br>
+
+          
+          <div class="outer circle">
+            <button>STOP</button>
+            <span></span>
+            <span></span>
+            </div>
+            </td>
+
+         <td>
+           
+          <br>
+           <br>
+           <br>
+           <br>
+          <div class="outer button">
+          <button>right</button>
+          <span></span>
+          <span></span>
+          </div>  
+           </td>
+         </tr>  </div>
+  
+          
+          
+          <tr>
+
+
+          <td></td>
+      <td>  
+        <br><br><br><br>
+        
+        <div class="outer button">
+        <button>Backward</button>
+        <span></span>
+        <span></span>
+        </div>
+          <td> 
+         </td>
+         </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  
+   </body>
+</html>
